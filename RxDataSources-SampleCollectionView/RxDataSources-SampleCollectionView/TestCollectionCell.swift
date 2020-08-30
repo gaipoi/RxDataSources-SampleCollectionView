@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
-final class CollectionCell: UICollectionViewCell {
-    @IBOutlet weak var titleLabel: UILabel!
+final class TestCollectionCell: UICollectionViewCell {
+    @IBOutlet private weak var sampleTitlelabel: UILabel!
+    
+    func configureCell(title: String) {
+        sampleTitlelabel.text = title
+    }
 }

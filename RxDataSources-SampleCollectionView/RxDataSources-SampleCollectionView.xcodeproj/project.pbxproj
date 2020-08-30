@@ -17,8 +17,8 @@
 		07A5F31C24F881B000DDFAB1 /* RxDataSources_SampleCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5F31B24F881B000DDFAB1 /* RxDataSources_SampleCollectionViewTests.swift */; };
 		07A5F32724F881B000DDFAB1 /* RxDataSources_SampleCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5F32624F881B000DDFAB1 /* RxDataSources_SampleCollectionViewUITests.swift */; };
 		07CDBB5424F88738000AE3CF /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBB5324F88738000AE3CF /* TestViewModel.swift */; };
-		07CDBB5624F887FA000AE3CF /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDBB5524F887FA000AE3CF /* CollectionCell.xib */; };
-		07CDBB5824F88821000AE3CF /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBB5724F88821000AE3CF /* CollectionCell.swift */; };
+		07CDBB5624F887FA000AE3CF /* TestCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDBB5524F887FA000AE3CF /* TestCollectionCell.xib */; };
+		07CDBB5824F88821000AE3CF /* TestCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBB5724F88821000AE3CF /* TestCollectionCell.swift */; };
 		3D30E4AD171C48F6BC76614E /* Pods_RxDataSources_SampleCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C225C2984672D9D45754EC3 /* Pods_RxDataSources_SampleCollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +56,8 @@
 		07A5F32624F881B000DDFAB1 /* RxDataSources_SampleCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSources_SampleCollectionViewUITests.swift; sourceTree = "<group>"; };
 		07A5F32824F881B000DDFAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CDBB5324F88738000AE3CF /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
-		07CDBB5524F887FA000AE3CF /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
-		07CDBB5724F88821000AE3CF /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		07CDBB5524F887FA000AE3CF /* TestCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionCell.xib; sourceTree = "<group>"; };
+		07CDBB5724F88821000AE3CF /* TestCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionCell.swift; sourceTree = "<group>"; };
 		184DE73CE92ECF91CFE8DF48 /* Pods-RxDataSources-SampleCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDataSources-SampleCollectionView.release.xcconfig"; path = "Target Support Files/Pods-RxDataSources-SampleCollectionView/Pods-RxDataSources-SampleCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		5389B4E488EA5E9C9850287F /* Pods-RxDataSources-SampleCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDataSources-SampleCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-RxDataSources-SampleCollectionView/Pods-RxDataSources-SampleCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		5C225C2984672D9D45754EC3 /* Pods_RxDataSources_SampleCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxDataSources_SampleCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +117,8 @@
 				07A5F30124F881AF00DDFAB1 /* AppDelegate.swift */,
 				07A5F30324F881AF00DDFAB1 /* SceneDelegate.swift */,
 				07A5F30524F881AF00DDFAB1 /* ViewController.swift */,
-				07CDBB5524F887FA000AE3CF /* CollectionCell.xib */,
-				07CDBB5724F88821000AE3CF /* CollectionCell.swift */,
+				07CDBB5524F887FA000AE3CF /* TestCollectionCell.xib */,
+				07CDBB5724F88821000AE3CF /* TestCollectionCell.swift */,
 				07CDBB5324F88738000AE3CF /* TestViewModel.swift */,
 				07A5F30724F881AF00DDFAB1 /* Main.storyboard */,
 				07A5F30D24F881B000DDFAB1 /* Assets.xcassets */,
@@ -273,7 +273,7 @@
 				07A5F31124F881B000DDFAB1 /* LaunchScreen.storyboard in Resources */,
 				07A5F30E24F881B000DDFAB1 /* Assets.xcassets in Resources */,
 				07A5F30924F881AF00DDFAB1 /* Main.storyboard in Resources */,
-				07CDBB5624F887FA000AE3CF /* CollectionCell.xib in Resources */,
+				07CDBB5624F887FA000AE3CF /* TestCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +345,7 @@
 				07CDBB5424F88738000AE3CF /* TestViewModel.swift in Sources */,
 				07A5F30424F881AF00DDFAB1 /* SceneDelegate.swift in Sources */,
 				07A5F30C24F881AF00DDFAB1 /* RxDataSources_SampleCollectionView.xcdatamodeld in Sources */,
-				07CDBB5824F88821000AE3CF /* CollectionCell.swift in Sources */,
+				07CDBB5824F88821000AE3CF /* TestCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
